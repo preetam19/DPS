@@ -89,4 +89,4 @@ Random Forest Regressor Model prediction: 17.7590 for input array: test_mpg =  [
 
 Since our model 2 has been custom trained, the random forest model expects the test_mpg to have 8 elements. Given test_mpg intially consists of 9 elements (including mpg value) which is the target value for the model. 
 
-I have also included notebook file {} to  describe the pre-processing steps and also implementation of various models and compare their respective peformance to the same dataset. 
+I have also included notebook file dps.ipynb to  describe the pre-processing steps and also implementation of various models and compare their respective peformance to the same dataset. 
