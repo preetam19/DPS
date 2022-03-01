@@ -33,8 +33,9 @@ We then have two different models as shown below
 
 
 
-Using the files predict_py and predict_custom.py we acquire following results. 
+Using the files predict_py (Linear regression Model) and predict_custom.py (Random Forest Regressor model) we acquire following results. 
 
+![CHEESE!]{  
 
 
 Since our model2 has been custom trained the model expects the test_mpg to have 8 elements as the given test_mpg also consists of mpg value which is the targe value of the model and therefore is elinated. 
