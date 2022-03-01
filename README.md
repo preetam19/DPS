@@ -53,15 +53,28 @@ We then proceed to train the model through the Training section in the vertex se
 
 
 -> We create the endpoints for our two models. We use these endpoints to get the predictions using the Vertex API. We create deploy.py and deploy_custom.py 
- Model1 -> ![CHEESE!](images/deploy_custom.png)
-            
-            
-Model2- >  ![CHEESE!](images/deploy_custom.png)
-            
-            
-We then have endpoints for two different models as shown below
  
-![CHEESE!](images/endpoints.png) 
+ 
+ 
+## Model 1 
+
+<p align="center">
+  <img width="800" height="380" src="https://github.com/preetam19/DPS/blob/80a4fd4d4a54c1f864079282fa4edd10895de539/images/deploy.png">
+</p>
+
+            
+## Model 2
+
+<p align="center">
+  <img width="800" height="380" src="https://github.com/preetam19/DPS/blob/80a4fd4d4a54c1f864079282fa4edd10895de539/images/deploy_custom.png">
+</p>
+            
+            
+Therefore creating two endpoints for two different models as shown below ~
+ 
+<p align="center">
+  <img width="800" height="300" src="https://github.com/preetam19/DPS/blob/80a4fd4d4a54c1f864079282fa4edd10895de539/images/endpoints.png">
+</p> 
 
 
 
@@ -70,8 +83,9 @@ Finally, using the files predict_py (Linear regression Model) and predict_custom
 Linear Regression Model prediction: 17.07827, for input array: test_mpg =  [1, 2, 3, 2, -2, -1, -2, -1, 0]
 Random Forest Regressor Model prediction: 17.7590 for input array: test_mpg =  [2, 3, 2, -2, -1, -2, -1, 0].
 
-![CHEESE!](images/dps_challenge.png)
-
+<p align="center">
+  <img width="850" height="150" src="https://github.com/preetam19/DPS/blob/80a4fd4d4a54c1f864079282fa4edd10895de539/images/dps_challenge.png">
+</p> 
 
 Since our model 2 has been custom trained, the random forest model expects the test_mpg to have 8 elements. Given test_mpg intially consists of 9 elements (including mpg value) which is the target value for the model. 
 
