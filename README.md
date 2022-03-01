@@ -81,6 +81,8 @@ Therefore creating two endpoints for two different models as shown below ~
 Finally, using the files predict_py (Linear regression Model) and predict_custom.py (Random Forest Regressor model) we acquire following results. 
 
 Linear Regression Model prediction: 17.07827, for input array: test_mpg =  [1, 2, 3, 2, -2, -1, -2, -1, 0]
+
+
 Random Forest Regressor Model prediction: 17.7590 for input array: test_mpg =  [2, 3, 2, -2, -1, -2, -1, 0].
 
 <p align="center">
